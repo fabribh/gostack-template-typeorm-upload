@@ -17,14 +17,22 @@ export default class CreateTransactionsMigrate1587613088953
           {
             name: 'title',
             type: 'varchar',
+            isNullable: true,
           },
           {
             name: 'value',
-            type: 'float',
+            type: 'decimal',
+            precision: 10,
+            scale: 2,
+          },
+          {
+            name: 'type',
+            type: 'varchar',
           },
           {
             name: 'category',
             type: 'varchar',
+            isNullable: true,
           },
           {
             name: 'created_at',
