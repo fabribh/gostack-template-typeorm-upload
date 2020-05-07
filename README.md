@@ -1,5 +1,5 @@
 # Back-end Built Using Node.js
--- This is a financial control system built usind Node.js
+-- This is a financial control system built in Node.js and Typescript
 
 Steps to get the app run:
 
